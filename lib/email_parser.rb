@@ -13,7 +13,7 @@ class EmailAddressParser
   
   def parse
     binding.pry
-    @emails.uniq
+    @emails.split(", ").uniq
   end
   @emails
 end
